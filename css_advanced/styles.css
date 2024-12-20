@@ -1,7 +1,6 @@
 *{
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
         box-sizing: border-box; /* Make sure padding and borders don't extend beyond the element */
     }
 
@@ -69,10 +68,10 @@ h1{
     font-weight: bold;
     text-align: center;
     color: #ffffff;
-    margin-bottom: 15px;
+    /*margin-bottom: 0px;*/
     position: relative; 
-    top: 25px;  
-    left: 20px;
+    top: 0px;  
+    left: 0px;
 }
 
 .spanline{
@@ -85,8 +84,8 @@ h1{
     width: 100%;
     margin: 0 auto;
     position: relative; 
-    top: 120px;  
-    left: 75px;
+    top: 55px;  
+    left: 0px;
     
 }
 
@@ -94,7 +93,7 @@ h1{
     display: flex; 
     justify-content: center; 
     gap: 60px; 
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 button{
@@ -113,7 +112,7 @@ button{
     cursor: pointer;
     position: relative; 
     top: 10px;  
-    left: 20px;
+    left: 2%;
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); 
     box-shadow: 4px 4px 8px rgba(0.3, 0.3, 0.3, 0.3); 
 
@@ -131,9 +130,8 @@ h2{
     font-weight: lighter;
     text-align: center;
     color: #ffffff;
-    margin-top: 24%;
-    margin-left: 18%;
-    
+    margin-top: 13%;
+    margin-left: 4%;
 }
 
 .highlight{
@@ -149,8 +147,7 @@ h2{
     margin-top: 4%;
     margin-left: 20%;
     width: 1009px;
-    /*height: 237 px;*/
-    
+    /*height: 237 px;*/   
 }
 
 .profile{
@@ -177,8 +174,7 @@ hr{
     border-top: 1px solid #020202;;
     border-radius: 0.1px;
     margin-top: 0;
-    padding: 0;
-    
+    padding: 0;  
 }
 
 .testimonial{
@@ -290,7 +286,7 @@ blockquote{
 
 .membership>h2{
     padding-top: 5%;
-    margin-right: 15%;
+    margin-right: 0%;
 }
 
 .free-mem>h3{
@@ -332,7 +328,7 @@ blockquote{
 
 .membership>button{
     margin-top: 5%;
-    margin-left: 45%;
+    margin-left: 43%;
     margin-bottom: 5%;
 }
 
@@ -402,13 +398,12 @@ blockquote{
 }
 
 .faq-one >p{
-    font-family: 'source sans pro', sans-serif;;
+    font-family: 'source sans pro', sans-serif;
     font-size: 14px;
     font-weight: normal;
     color: #07162954;
     padding: 5% 18% 0% 18%;
     line-height: 1.8;
-
 }
 .faq-two >p{
     font-family: 'source sans pro', sans-serif;;
@@ -471,5 +466,4 @@ footer{
     margin-right: 5%;
     gap:  35px;
     font-size: 250%;
-
 }
