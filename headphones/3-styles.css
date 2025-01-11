@@ -1,0 +1,96 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Fonts *
+@font-face {
+    font-family: 'Spin Cycle OT';
+    src: url('/headphones/Spin-Cycle-OT/spincycle_3d_ot.otf') format('woff2'),
+         url('/headphones/Spin-Cycle-OT/spincycle_ot.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+.contact{
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+.contact h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    margin-top: 0%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+    margin: 5% 18%;
+}
+form {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    text-align:start;
+    margin: 0% 18%;
+    display:block;
+    justify-content: space-between;
+}
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #201f1f;
+    padding: 20px 5px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    background: transparent;
+    outline: none;
+  }
+
+button {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    width: 162px;
+    height: 44px;
+    background-color: #FF6565;
+    border-radius: 20px;
+    border-style: none;
+    margin-bottom: 8%;
+    align-self: center;
+    margin-left: 20%;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.9;
+}
+
+
+
+@media (min-width: 480px) {
+    form{
+        max-width: 400px;
+        margin: 0% 30%;
+    }   
+    button{
+        margin-left: 20%;
+    }
+    }
+
+@media (min-width: 768px) {
+    form{
+        max-width: 400px;
+        margin: 0% 30%;
+        align-items: center;
+    }   
+    button{
+        margin-left: 40%;
+    }
+    }
+    

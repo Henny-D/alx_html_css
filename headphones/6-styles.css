@@ -1,0 +1,153 @@
+/* General Reset */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/*Fonts */
+@font-face {
+    font-family: 'Spin Cycle OT';
+    src: url('/headphones/Spin-Cycle-OT/spincycle_3d_ot.otf') format('woff2'),
+         url('/headphones/Spin-Cycle-OT/spincycle_ot.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-image: url(./images/headphones_hero_2.jpg);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+        }
+
+.results{
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+.results h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    color: rgb(255, 253, 253);
+    padding-top: 10%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+    margin: 5% 18%;
+}
+.results p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: lighter;
+    margin: 0% 18%;
+}
+.result-container{
+    display: block;
+    justify-content: space-between;
+    gap:50%;
+    align-items: center;
+    margin: 5% 30%;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+.result-container p{
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 5% 15%;
+    color: white;
+    padding-top: 0%;
+}
+
+.result-container h3{
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 46px;
+    font-weight: bold;
+    margin: 5% 15%;
+    color: white;
+    padding-top: 40%;
+    padding-left: 10%;
+}
+
+
+.rescont-1{
+    width: 190px;
+    height: 190px;
+    background-size:contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 20%;
+    }
+
+@media (min-width: 480px) {
+    .result-container{
+        display: flex;
+        justify-content: space-between;
+        gap:2%;
+        align-items: center;
+        margin: 0% 2%;        
+    }
+    .result-container h3{
+        font-family:'Source Sans Pro', sans-serif;
+        font-size: 46px;
+        font-weight: bold;
+        margin: 0% 0%;
+        color: white;
+        padding-top: 50%;
+        padding-left: 0%;
+    }
+    .result-container p{
+        font-family:'Source Sans Pro', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0% 0%;
+        color: white;
+        padding-top: 0%;
+    }
+    .rescont-1{
+        margin-top: 0%;
+        }      
+}
+@media (min-width: 768px) {
+    .result-container{
+        display: flex;
+        justify-content: space-between;
+        gap:2%;
+        align-items: center;
+        margin: 5% 5%;        
+        padding: 0% 10%;
+    }  
+    .result-container p{
+        font-family:'Source Sans Pro', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0% 0%;
+        color: white;
+        padding-top: 2%;
+    }
+    
+    .result-container h3{
+        font-family:'Source Sans Pro', sans-serif;
+        font-size: 46px;
+        font-weight: bold;
+        margin: 0% 0%;
+        color: white;
+        padding-top: 40%;
+        padding-left: 20%;
+    }
+   
+    .rescont-1{
+        margin-top: 0%;
+        }
+        
+}
+
+  .pentagon {
+    width: 190px;
+    height: 190px;
+    background-color: #FF6565;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  }

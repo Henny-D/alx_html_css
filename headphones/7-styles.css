@@ -1,0 +1,215 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/*Fonts */
+@font-face {
+    font-family: 'Spin Cycle OT';
+    src: url('/headphones/Spin-Cycle-OT/spincycle_3d_ot.otf') format('woff2'),
+         url('/headphones/Spin-Cycle-OT/spincycle_ot.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.last-button{
+    margin-right: 22%;
+}
+.results{
+    background-image: url(./images/headphones_hero_2.jpg);
+    background-size:cover;
+    height:100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+        }
+
+.results{
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+.results h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    color: rgb(255, 253, 253);
+    padding-top: 10%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+    margin: 5% 18%;
+}
+.results p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: lighter;
+    margin: 0% 18%;
+}
+.result-container{
+    display: block;
+    justify-content: space-between;
+    gap:50%;
+    align-items: center;
+    margin: 5% 30%;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+.result-container p{
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 5% 15%;
+    color: white;
+    padding-top: 0%;
+}
+
+.result-container h3{
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 46px;
+    font-weight: bold;
+    margin: 5% 15%;
+    color: white;
+    padding-top: 40%;
+    padding-left: 10%;
+}
+
+.icon-bounce {
+    animation: bounce 1.5s infinite ease-in-out;
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  .icon {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  .icon:hover {
+    transform: scale(1.2) rotate(15deg); /* Scaling and rotation */
+    opacity: 0.95; /* Adjusting opacity */
+  }
+.rescont-1{
+    background-image: url(./images/pentagone.png);
+    width: 190px;
+    height: 190px;
+    background-size:contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 20%;
+    }
+
+
+
+footer{
+    background-color: #071629;
+    padding: 5% 10%;
+}
+.foot-container{
+    display:block;
+}
+.foot-container .fa-brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 6% 25%;
+    font-size: 250%;
+    color: white;
+}
+footer p{
+    color: rgb(108, 108, 108);
+    text-align: center;
+    margin-top: 10%;
+    font-family:'Source Sans Pro', sans-serif; 
+}
+
+@media (min-width: 480px) {
+
+    .last-button{
+        margin-right: 22%;
+    }
+    .result-container{
+        display: flex;
+        justify-content: space-between;
+        gap:2%;
+        align-items: center;
+        margin: 0% 2%;        
+    }
+    .result-container h3{
+        font-family:'Source Sans Pro', sans-serif;
+        font-size: 46px;
+        font-weight: bold;
+        margin: 0% 0%;
+        color: white;
+        padding-top: 50%;
+        padding-left: 0%;
+    }
+    .result-container p{
+        font-family:'Source Sans Pro', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0% 0%;
+        color: white;
+        padding-top: 0%;
+    }
+    .rescont-1{
+        margin-top: 0%;
+        }      
+    .foot-container{
+            display:flex;
+            justify-content: space-between;
+            gap: 20%;
+        }
+    .foot-container .fa-brand{
+            display: flex;
+            justify-content: space-between;
+            gap: 20%;
+            padding: 0% 0%;
+            font-size: 250%;
+            color: white;
+    }
+}
+@media (min-width: 768px) {
+    .last-button{
+        margin-right: 40%;
+    }
+    .result-container{
+        display: flex;
+        justify-content: space-between;
+        gap:2%;
+        align-items: center;
+        margin: 5% 5%;        
+        padding: 0% 10%;
+    }  
+    .result-container p{
+        font-family:'Source Sans Pro', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0% 0%;
+        color: white;
+        padding-top: 2%;
+    }
+    
+    .result-container h3{
+        font-family:'Source Sans Pro', sans-serif;
+        font-size: 46px;
+        font-weight: bold;
+        margin: 0% 0%;
+        color: white;
+        padding-top: 40%;
+        padding-left: 20%;
+    }
+   
+    .rescont-1{
+        margin-top: 0%;
+        }
+        
+}
